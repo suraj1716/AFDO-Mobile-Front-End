@@ -14,15 +14,16 @@ const FormContainer = (props) => {
 
 const styles = StyleSheet.create({
     container: {
-        marginTop: 0,
-        marginBottom: 40,
+        height:width+500,
+        backgroundColor:"white",
+        marginTop: 5,
+        marginBottom: 400,
         width: width,
         justifyContent: 'center',
         alignItems: 'center'
     },
     title: {
-        margin:20,
-        fontSize: 25,
+        fontSize: 30,
     }
 })
 
